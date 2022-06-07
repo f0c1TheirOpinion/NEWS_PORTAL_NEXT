@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto -apple-system, sans-serif;
+  background-color:  rgb(243, 241, 250) !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+.content{
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+
+  &--full{
+    max-width: 1000px;
+  }
+
+}
+.wrapper{
+  display: flex;
+  padding: 0 30px;
+  padding-top: 80px;
+}
+.main-lay-white{
+    background: white;
+  height: 100vh;
+
+}
+.container {
+  margin: 0 auto;
+  width: 680px;
+}
